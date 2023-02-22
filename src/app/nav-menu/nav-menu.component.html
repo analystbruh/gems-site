@@ -1,7 +1,14 @@
-<ul>
+<ul class="main">
     <li><a href="#" mat-button>HOME</a></li>
     <li><a href="#" mat-button>ABOUT</a></li>
     <li><a href="#" mat-button>CONTACT</a></li>
-    <li><a href="#" mat-button>???</a></li>
     <li><button mat-raised-button color="primary">DONATE</button></li>
 </ul>
+
+<button mat-button [matMenuTriggerFor]="menu" class="burger"><mat-icon>menu</mat-icon></button>
+<mat-menu #menu="matMenu" class="text-center">
+    <a href="#" mat-button>HOME</a>
+    <a href="#" mat-button>ABOUT</a>
+    <a href="#" mat-button>CONTACT</a>
+    <button mat-raised-button color="primary">DONATE</button>
+</mat-menu>
