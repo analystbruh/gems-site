@@ -19,6 +19,7 @@ ul {
 @media (max-width: 768px) {
     a {
         display: block;
+        margin-bottom: 5px;
     }
 
     .main {
@@ -27,5 +28,13 @@ ul {
 
     .burger {
         display: inline;
+    }
+
+    .mat-raised-button {
+        margin-bottom: 5px;
+    }
+
+    .mat-app-background {
+        background-color: rgba(0,0,0,.5);
     }
 }
