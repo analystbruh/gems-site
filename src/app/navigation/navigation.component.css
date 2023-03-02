@@ -1,12 +1,37 @@
 .mat-toolbar {
     background-color: rgba(0,0,0,0);
+    top:0;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
 }
 
 .spacer {
     flex: 1 1 auto;
 }
 
-@media (max-width: 768px) {
+.side-nav-button {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    a {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .main-nav-menu {
+        display: none;
+    }
+
+    .side-nav-button {
+        display: inline;
+    }
+
+    .mat-app-background {
+        background-color: rgba(0,0,0,.5);
+    }
+
     .mat-toolbar {
         background-color: rgba(0,0,0,.5);
     }

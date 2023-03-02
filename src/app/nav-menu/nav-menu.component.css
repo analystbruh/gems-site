@@ -12,29 +12,21 @@ ul {
     font-size: large;
 }
 
-.burger {
-    display: none;
-}
-
-@media (max-width: 768px) {
-    a {
+@media (max-width: 600px) {
+    li {
+        list-style-type: none;
         display: block;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
+        margin-right: 10px;
     }
 
-    .main {
-        display: none;
+    ul {
+        display: block;
+        margin-top: 10px;
+        padding-left: 0;
     }
 
-    .burger {
-        display: inline;
-    }
-
-    .mat-raised-button {
-        margin-bottom: 5px;
-    }
-
-    .mat-app-background {
-        background-color: rgba(0,0,0,.5);
+    .mat-button, .mat-raised-button {
+        width: 100%;
     }
 }
