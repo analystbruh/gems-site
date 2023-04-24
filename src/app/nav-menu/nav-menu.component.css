@@ -12,7 +12,12 @@ ul {
     font-size: large;
 }
 
-@media (max-width: 600px) {
+a {
+    color: inherit;
+}
+
+
+@media (max-width: 1000px) {
     li {
         list-style-type: none;
         display: block;

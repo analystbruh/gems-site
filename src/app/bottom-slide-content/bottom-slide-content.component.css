@@ -1,0 +1,31 @@
+.tall {
+    height: 100%;
+}
+
+a {
+    color: inherit;
+}
+
+.half {
+    height: 50%;
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1em;
+}
+p {
+    font-size: 2em;
+    line-height: 1em;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.5em;
+        line-height: 1em;
+    }
+    p {
+        font-size: 1.5em;
+        line-height: 1em;
+    }
+}

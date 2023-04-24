@@ -6,6 +6,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +19,10 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { SectionRightComponent } from './section-right/section-right.component';
 import { SectionLeftComponent } from './section-left/section-left.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
+import { LeftSlideContentComponent } from './left-slide-content/left-slide-content.component';
+import { RightSlideContentComponent } from './right-slide-content/right-slide-content.component';
+import { BottomSlideContentComponent } from './bottom-slide-content/bottom-slide-content.component';
+import { HomeContentComponent } from './home-content/home-content.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +33,11 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
     NavigationComponent,
     SectionRightComponent,
     SectionLeftComponent,
-    NavMenuComponent
+    NavMenuComponent,
+    LeftSlideContentComponent,
+    RightSlideContentComponent,
+    BottomSlideContentComponent,
+    HomeContentComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +48,9 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
     MatIconModule,
     MatButtonModule,
     MatMenuModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatInputModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
