@@ -4,6 +4,7 @@
     </mat-drawer>
     <mat-drawer-content>
         <app-navigation (toggleMenuState)="drawer.toggle()"></app-navigation>
+        <div class="spacer"></div>
         <router-outlet></router-outlet>
     </mat-drawer-content>
 </mat-drawer-container>

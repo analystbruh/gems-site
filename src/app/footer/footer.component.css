@@ -1,3 +1,12 @@
 i {
     font-size: 3em;
 }
+
+a {
+    color: inherit;
+}
+
+.neighbor {
+    height: 54.75px;
+    width: 120px;
+}

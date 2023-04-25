@@ -8,6 +8,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -23,6 +24,8 @@ import { LeftSlideContentComponent } from './left-slide-content/left-slide-conte
 import { RightSlideContentComponent } from './right-slide-content/right-slide-content.component';
 import { BottomSlideContentComponent } from './bottom-slide-content/bottom-slide-content.component';
 import { HomeContentComponent } from './home-content/home-content.component';
+import { ProgramsComponent } from './programs/programs.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +40,9 @@ import { HomeContentComponent } from './home-content/home-content.component';
     LeftSlideContentComponent,
     RightSlideContentComponent,
     BottomSlideContentComponent,
-    HomeContentComponent
+    HomeContentComponent,
+    ProgramsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +55,8 @@ import { HomeContentComponent } from './home-content/home-content.component';
     MatMenuModule,
     MatSidenavModule,
     MatInputModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
