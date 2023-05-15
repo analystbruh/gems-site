@@ -14,9 +14,23 @@ h1 {
     font-size: 2.5em;
     line-height: 1em;
 }
+
 p {
     font-size: 2em;
     line-height: 1em;
+}
+
+.title {
+    font-size: 10em;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 2.5em;
+}
+
+.mat-raised-button {
+    background-color: #c2a625;
 }
 
 @media (max-width: 600px) {
@@ -25,7 +39,15 @@ p {
         line-height: 1em;
     }
     p {
-        font-size: 1.5em;
+        font-size: 1.25em;
         line-height: 1em;
+    }
+    .title {
+        font-size: 4em;
+        font-weight: bold;
+    }
+
+    .subtitle {
+        font-size: 2em;
     }
 }

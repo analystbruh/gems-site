@@ -2,3 +2,36 @@
     position: absolute;
     top: 70px;
 }
+
+h2 {
+    font-size: 1.9em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.7em;
+    line-height: 1.2em;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.section {
+    min-height: 80vh;
+}
+
+.cp2 {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .cp1 {
+        display: none;
+    }
+
+    .cp2 {
+        display: block;
+    }
+}
