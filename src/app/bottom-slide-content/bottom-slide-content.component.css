@@ -16,7 +16,7 @@ h1 {
 }
 p {
     font-size: 2em;
-    line-height: 1em;
+    line-height: 1.2em;
 }
 
 .title {
@@ -39,7 +39,7 @@ p {
     }
     p {
         font-size: 1.25em;
-        line-height: 1em;
+        line-height: 1.2em;
     }
 
     .title {
