@@ -23,10 +23,12 @@ p {
 .title {
     font-size: 10em;
     font-weight: bold;
+    font-family: 'brush script mt';
 }
 
 .subtitle {
     font-size: 2.5em;
+    font-family: 'brush script mt';
 }
 
 .mat-raised-button {
