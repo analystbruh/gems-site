@@ -9,4 +9,10 @@ a {
 .neighbor {
     height: 54.75px;
     width: 120px;
+    background-color: gray;
+    font-size: 1.2em;
+}
+
+.donate {
+    background-color: #c2a625;
 }

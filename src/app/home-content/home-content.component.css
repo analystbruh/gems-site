@@ -7,7 +7,7 @@
     height: 100vh;
     position: relative;
     background-color: black;
-    background-image: url('/assets/images/jenga.jpg');
+    background-image: url('/assets/images/homepagemoneymatters.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -48,7 +48,7 @@
     height: 100vh;
     position: relative;
     background-color: red;
-    background-image: url('/assets/images/black-teenagers.jpg');
+    background-image: url('/assets/images/homepagecareerpathways.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -90,7 +90,7 @@
     height: 100vh;
     position: relative;
     background-color: red;
-    background-image: url('/assets/images/teens.jpg');
+    background-image: url('/assets/images/homepagespeaklife.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

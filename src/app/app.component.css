@@ -2,6 +2,10 @@
     height: 100vh;
 }
 
+.mat-drawer-content {
+    padding: 0px;
+}
+
 .side-menu {
     width: 200px;
 }
@@ -11,5 +15,5 @@
 }
 
 .spacer {
-    height: 70px;
+    height: 65px;
 }

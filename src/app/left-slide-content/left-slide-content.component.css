@@ -21,7 +21,7 @@ p {
 }
 
 .title {
-    font-size: 10em;
+    font-size: 13em;
     font-weight: bold;
     font-family: 'brush script mt';
 }
@@ -45,7 +45,7 @@ p {
         line-height: 1.2em;
     }
     .title {
-        font-size: 4em;
+        font-size: 6em;
         font-weight: bold;
     }
 
