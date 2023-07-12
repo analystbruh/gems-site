@@ -1,100 +1,122 @@
-<div class="container">
-    <div class="row mt-3">
-        <div class="col message">
-            <p>A message from our founder…</p>
-            <p>Being raised in a strong community driven small-town environment, it was always embedded in me to
-                serve and give back. From my early years of assisting in daycare at church as a young teen and later
-                serving in auxiliary ministry in my adult years and as a professional volunteering in corporate employee
-                resource groups, I have and continue my desire to help others. My mother would say GEMS started
-                when I was a kid always looking out for other kids and my desire to teach. I remember during summer
-                and school breaks gathering my younger sister and neighborhood kids to “play school”. Can you
-                imagine, as a kid convincing other kids to use their break time to continue learning, chalkboard and all.
-                From my past to my present, I'm excited to share with you all where the vision of GEMS started from
-                and how it has come to be. I look forward to bringing our services to your students and providing them
-                with GEMS to help them grow and develop into their futures.</p>
-            <img src="assets/images/marlo-sig.png" class="img img-fluid">
+<div class="container-fluid lighter">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+                <img class="img-fluid" src="assets/images/gems-tp.png">
+            </div>
+        </div>
+        <div class = "row mt-3">
+            <div class="col-md-12 text-center">
+                <h1>Reach out to the GEMS team below.</h1>
+            </div>
+        </div>
+        <div class = "row">
+            <div class="col-md-12">
+                <form [formGroup]="contactForm" (ngSubmit)="onSubmit">
+                    <div class = "row">
+                        <div class="col-md-6">
+                            <mat-form-field appearance="outline">
+                                <mat-label>First Name</mat-label>
+                                <input matInput type="text" formControlName="firstName">
+                            </mat-form-field>
+                        </div>
+                        <div class="col-md-6">
+                            <mat-form-field appearance="outline">
+                                <mat-label>Last Name</mat-label>
+                                <input matInput type="text" formControlName="lastName">
+                            </mat-form-field>
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class="col-md-12">
+                            <mat-form-field appearance="outline">
+                                <mat-label>Email</mat-label>
+                                <input matInput type="email" formControlName="email" email>
+                            </mat-form-field>
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class="col-md-12">
+                            <mat-form-field appearance="outline">
+                                <mat-label>Message</mat-label>
+                                <textarea matInput formControlName="message"></textarea>
+                            </mat-form-field>
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class="col-md-12">
+                            <button mat-raised-button type="submit" [disabled]="!contactForm.valid">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <h1>A message from our founder…</h1>
+                <p class="message">Being raised in a strong community driven small-town environment, it was always embedded in me to
+                    serve and give back. From my early years of assisting in daycare at church as a young teen and later
+                    serving in auxiliary ministry in my adult years and as a professional volunteering in corporate employee
+                    resource groups, I have and continue my desire to help others. My mother would say GEMS started
+                    when I was a kid always looking out for other kids and my desire to teach. I remember during summer
+                    and school breaks gathering my younger sister and neighborhood kids to “play school”. Can you
+                    imagine, as a kid convincing other kids to use their break time to continue learning, chalkboard and all.
+                    From my past to my present, I'm excited to share with you all where the vision of GEMS started from
+                    and how it has come to be. I look forward to bringing our services to your students and providing them
+                    with GEMS to help them grow and develop into their futures.</p>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <h1>Our History</h1>
+                <p class="message">“It takes a village” is a statement that is widely used in the upbringing of our kids. We all know the
+                    importance of school and obtaining an education, however there is also a component of meeting the
+                    kids where they are, to help them along the way. Knowing there is an area of need to help students
+                    succeed, the vision for GEMS Inc. (GEMS) came to fruition and was officially established as a 501c3
+                    nonprofit organization in August 2011. The vision for GEMS is to provide resources and tools for middle
+                    and high school students (ages 12-18) in the areas of health, education, arts, and life skills.</p>
+                <p class="message">After development of the organization structure and planning of programs, in 2014, GEMS Inc. launched
+                    its first community outreach, Bay Area Family Literacy Day, providing educational resources and literary
+                    works from authors, illustrators and business professionals to students and their families. Since then,
+                    GEMS has partnered with city recreational departments, youth centers and other nonprofit
+                    organizations to deliver enrichment programs that empower students to pursue academic goals and
+                    have a positive outlook on their futures. GEMS is excited to now also offer our programs directly with
+                    local schools and districts. For more information on our current programs, <a [routerLink]="'/programs'">click here</a>.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p class="message">Of course, the village is much larger than just the GEMS Inc.
+                    organization. We strive to collaborate within our network
+                    of community service providers and organizations that share
+                    our agenda for benefiting the community.</p>
+                <p class="message">If you share our
+                    vision and would like to volunteer or collaborate,
+                    please feel free to contact us.</p>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <h1>Donors & Partners</h1>
+            </div>
+        </div>
+        <div class="row text-nowrap overflow-auto">
+            <div class="col-md-3 ilb">
+                <img class="img-fluid" src="assets/images/bnp-paribas.jpg">&nbsp;
+                <img class="img-fluid" src="assets/images/barnes-noble.png">&nbsp;
+                <img class="img-fluid" src="assets/images/coca-cola.jpg">&nbsp;
+                <img class="img-fluid" src="assets/images/csd.png">&nbsp;
+                <img class="img-fluid" src="assets/images/fairyland.png">&nbsp;
+                <img class="img-fluid" src="assets/images/kaiserp.png">&nbsp;
+                <img class="img-fluid" src="assets/images/golden1.jpg">&nbsp;
+                <img class="img-fluid" src="assets/images/kohls.jpg">&nbsp;
+                <img class="img-fluid" src="assets/images/lowes.png">&nbsp;
+                <img class="img-fluid" src="assets/images/pgne.png">&nbsp;
+                <img class="img-fluid" src="assets/images/wellsfargo.png">&nbsp;
+            </div>
         </div>
     </div>
-    <div class="row mt-3">
-        <div class="col message">
-            <h1>Our History</h1>
-            <p>“It takes a village” is a statement that is widely used in the upbringing of our kids. We all know the
-                importance of school and obtaining an education, however there is also a component of meeting the
-                kids where they are, to help them along the way. Knowing there is an area of need to help students
-                succeed, the vision for GEMS Inc. (GEMS) came to fruition and was officially established as a 501c3
-                nonprofit organization in August 2011. The vision for GEMS is to provide resources and tools for middle
-                and high school students (ages 12-18) in the areas of:</p>
-            <div class="d-flex justify-content-center"><img src="assets/images/gems-areas.png" class="img img-fluid"></div>
-            <p>After development of the organization structure and planning of programs, in 2014, GEMS Inc. launched
-                its first community outreach, Bay Area Family Literacy Day, providing educational resources and literary
-                works from authors, illustrators and business professionals to students and their families. Since then,
-                GEMS has partnered with city recreational departments, youth centers and other nonprofit
-                organizations to deliver enrichment programs that empower students to pursue academic goals and
-                have a positive outlook on their futures. GEMS is excited to now also offer our programs directly with
-                local schools and districts. For more information on our current programs, <a [routerLink]="'/programs'">click here</a>.</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4 message d-flex align-items-center">
-            <p>Of course, the village is much larger than just the GEMS Inc.
-                organization. We strive to collaborate within our network
-                of community service providers and organizations that share
-                our agenda for benefiting the community.</p>
-        </div>
-        <div class="col-md-4 message d-flex justify-content-center">
-            <img src="assets/images/gems-circle.png" class="img img-fluid">
-        </div>
-        <div class="col-md-4 message d-flex align-items-center">
-            <p>If you share our
-                vision and would like to volunteer or collaborate,
-                please feel free to contact us.</p>
-        </div>
-    </div>
-    <div class = "row mt-3">
-        <div class="col-md-12 text-center">
-            <h1>Reach out to the GEMS team below.</h1>
-        </div>
-    </div>
-    <div class = "row">
-        <div class="col-md-12">
-            <form [formGroup]="contactForm" (ngSubmit)="onSubmit">
-                <div class = "row">
-                    <div class="col-md-6">
-                        <mat-form-field appearance="outline">
-                            <mat-label>First Name</mat-label>
-                            <input matInput type="text" formControlName="firstName">
-                        </mat-form-field>
-                    </div>
-                    <div class="col-md-6">
-                        <mat-form-field appearance="outline">
-                            <mat-label>Last Name</mat-label>
-                            <input matInput type="text" formControlName="lastName">
-                        </mat-form-field>
-                    </div>
-                </div>
-                <div class = "row">
-                    <div class="col-md-12">
-                        <mat-form-field appearance="outline">
-                            <mat-label>Email</mat-label>
-                            <input matInput type="email" formControlName="email" email>
-                        </mat-form-field>
-                    </div>
-                </div>
-                <div class = "row">
-                    <div class="col-md-12">
-                        <mat-form-field appearance="outline">
-                            <mat-label>Message</mat-label>
-                            <textarea matInput formControlName="message"></textarea>
-                        </mat-form-field>
-                    </div>
-                </div>
-                <div class = "row">
-                    <div class="col-md-12">
-                        <button mat-raised-button type="submit" [disabled]="!contactForm.valid">Submit</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
+    <br><br><br>
 </div>
+
 <app-footer></app-footer>
