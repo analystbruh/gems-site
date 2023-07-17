@@ -163,4 +163,30 @@
         color: white;
         animation: fadeToRight 2s;
     }
+
+    .leftRight-container {
+        background: red;
+        height: 100vh;
+        position: relative;
+        background-color: red;
+        background-image: url('/assets/images/homepagespeaklife.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: -600px;
+        overflow: hidden;
+    }
+
+    .rightLeft-container {
+        background: red;
+        height: 100vh;
+        position: relative;
+        background-color: red;
+        background-image: url('/assets/images/homepagecareerpathways.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: -100px;
+        box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+        z-index: 7;
+        overflow: hidden;
+    }
 }

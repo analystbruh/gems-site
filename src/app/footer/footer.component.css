@@ -7,7 +7,7 @@ a {
 }
 
 .neighbor {
-    height: 54.75px;
+    height: 50px;
     width: 120px;
     background-color: gray;
     font-size: 1.2em;
@@ -15,4 +15,8 @@ a {
 
 .donate {
     background-color: #c2a625;
+}
+
+.mat-form-field-wrapper {
+    padding-bottom: 0px;
 }
