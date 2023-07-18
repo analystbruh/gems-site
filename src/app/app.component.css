@@ -15,5 +15,11 @@
 }
 
 .spacer {
-    height: 65px;
+    height: 64px;
+}
+
+@media (max-width: 600px) {
+    .spacer {
+        height: 55px;
+    }
 }

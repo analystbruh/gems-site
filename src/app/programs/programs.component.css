@@ -8,8 +8,9 @@
 }
 
 h2 {
-    font-size: 1.9em;
+    font-size: 5em;
     font-weight: bold;
+    line-height: 100%;
 }
 
 p {
@@ -34,7 +35,12 @@ h1 {
     width: 50%;
 }
 
-@media (max-width: 600px) {
+.section-pics {
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+@media (max-width: 768px) {
     .cp1 {
         display: none;
     }
